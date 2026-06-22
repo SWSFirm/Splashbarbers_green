@@ -1,0 +1,156 @@
+
+*,
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{  
+  font-family: 'Rockwell','Times New Roman' ;  
+  margin:0;   
+  overflow: hidden;
+  background-color: #1DB547;
+}
+
+.headrflex{
+
+    margin-top:30px;
+    height:55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerflex{
+
+    margin-top:170px;
+    height:55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:end  ;
+}
+
+
+main{
+
+  overflow-x: clip;
+}
+
+.GridSection{
+ display: grid;
+ margin-left: 95.18px;
+ margin-top: 154.27px;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 15px;
+ align-items: center;
+}
+
+.header_image{
+    margin-left: 23px;
+    width: 136px;
+    height: 55px;
+
+}
+
+.imagesizing{
+    width: 100%;
+    
+}
+
+.menu{
+    line-height: 5px;
+    
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks{
+    font-size: 24px;
+     color: white;
+    text-decoration: none;
+}
+
+.navlinks:hover{
+     color: black;
+    
+}
+
+.loginmenu_text{
+
+font-weight: bold;
+font-size: 36px;
+
+}
+
+.company_text{
+color:white;
+font-weight: bold;
+font-size: 24px;
+
+}
+
+.center_align{
+    display: flex;
+    justify-content: center;
+}
+
+.center_align_TextBoxes_and_button{
+    display: grid; 
+    justify-content: center;  
+    
+    
+}
+
+
+
+.text_box{
+
+    font-size: 24px;
+    text-align: center;
+    width:536px;
+    height:54px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box{
+
+    
+    font-size: 24px;
+    color: white;
+    width:536px;
+    height:54px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box:hover{
+
+    color: black;
+    background-color: #1DB547;
+    border-color: white;
+}
