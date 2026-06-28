@@ -41,6 +41,16 @@
 body.menu-open{
     overflow: hidden;
 }
+
+/* Ensure CSS controls visibility of the hamburger and close button based on the menu state.
+   Avoid inline-style overrides by using !important where necessary. */
+body.menu-open .hamburger{
+    display: none !important;
+}
+body.menu-open .menu-close{
+    display: block !important;
+}
+
 .menu ul{
     display: flex;
     list-style-type: none;
