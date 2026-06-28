@@ -40,6 +40,34 @@
   color: white;
 }
 
+@media (min-width: 769px) and (max-width: 1366px){
+ .product_Grid{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px; 
+    row-gap: 36px;
+}
+
+.first_product_card,
+.second_product_card,
+.third_product_card,
+.fourth_product_card{
+    padding: 14px;
+    display: flex;
+    align-items: start;
+    gap: 14px;
+}
+
+.product_card_image{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+}
+
 @media (max-width: 768px){
 
  .product_Grid{

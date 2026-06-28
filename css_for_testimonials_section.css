@@ -40,6 +40,26 @@
     color: white;
 }
 
+@media (min-width: 769px) and (max-width: 1366px){
+ .testimonials_grid{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px; 
+    row-gap: 32px;
+}
+
+.first_testimonials_card,
+.second_testimonials_card{    
+    padding: 14px;
+    display: flex;  
+    align-items: center;
+    gap: 14px;
+}
+}
+
 @media (max-width: 768px){
 
  .testimonials_grid{

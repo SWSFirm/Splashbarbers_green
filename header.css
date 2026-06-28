@@ -91,6 +91,28 @@ body.menu-open .menu-close{
     
 }
 /*hrader section ends here*/
+@media (min-width: 769px) and (max-width: 1366px){
+    .headrflex{
+        margin-top: 20px;
+        padding: 0 24px;
+    }
+
+    .header_image{
+        margin-left: 0;
+        width: 130px;
+        height: auto;
+    }
+
+    .menu ul{
+        margin-right: 0;
+        gap: 8px;
+    }
+
+    .navlinks{
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 768px){
 
    .headrflex{

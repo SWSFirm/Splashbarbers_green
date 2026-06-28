@@ -27,6 +27,25 @@
 
 }
 
+@media (min-width: 769px) and (max-width: 1366px){
+ .hi_Section_centering{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+}
+
+.hi_Section_image{
+    width: min(100%, 480px);
+    margin-left: 0px;
+}
+
+.hi_Section_paragraph{
+    font-size: 32px;
+    margin-left: 0px;
+}
+}
+
 @media (max-width: 768px){
 
  .hi_Section_centering{

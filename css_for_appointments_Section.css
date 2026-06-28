@@ -65,6 +65,30 @@
     margin-bottom: 0px;
 }
 
+@media (min-width: 769px) and (max-width: 1366px){
+.appointments_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+}
+.appointments_form{
+    margin-left: 0px;
+}
+
+.text_box,
+.button_box{
+    width: min(100%, 480px);
+}
+
+.appointments_img{
+    width: min(100%, 520px);
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
 @media (max-width: 768px){
 
 .appointments_grid{
@@ -167,7 +191,7 @@
 .text_box,
 .button_box{
     width: 100%;
-    max-width: 340px;
+    max-width: 100%;
     font-size: 20px;
 }
 
@@ -190,7 +214,7 @@
 .text_box,
 .button_box{
     width: 100%;
-    max-width: 320px;
+    max-width: 100%;
     font-size: 20px;
 }
 
