@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Regular.TTF') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Bold.TTF') format('truetype');
+  font-weight: bold;
+}
+
+
+*,
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{  
+  font-family: 'Rockwell' ;  
+  margin:0;   
+  overflow: hidden;
+  background-color: #1DB547;
+}
+
+.headrflex{
+
+    margin-top:30px;
+    height:55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerflex{
+
+    margin-top:170px;
+    height:55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:end  ;
+}
+
+
+main{
+
+  overflow-x: clip;
+}
+
+.GridSection{
+ display: grid;
+ margin-left: 95.18px;
+ margin-top: 154.27px;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 15px;
+ align-items: center;
+}
+
+.header_image{
+    margin-left: 23px;
+    width: 136px;
+    height: 55px;
+
+}
+
+.imagesizing{
+    width: 100%;
+    
+}
+
+
+
+.loginmenu_text{
+
+font-weight: bold;
+font-size: 36px;
+
+}
+
+.company_text{
+color:white;
+font-weight: bold;
+font-size: 24px;
+
+}
+
+.center_align{
+    display: flex;
+    justify-content: center;
+}
+
+.center_align_TextBoxes_and_button{
+    display: grid; 
+    justify-content: center;  
+    
+    
+}
+
+.nav_margin{
+
+    margin-left: 5px;
+
+}
+
+
+.text_box{
+
+    font-size: 24px;
+    text-align: center;
+    width:536px;
+    height:54px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box{
+
+    
+    font-size: 24px;
+    color: white;
+    width:536px;
+    height:54px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box:hover{
+
+    color: black;
+    background-color: #1DB547;
+    border-color: white;
+}
