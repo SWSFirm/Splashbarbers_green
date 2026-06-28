@@ -1,0 +1,228 @@
+.setup_appointment_text{
+
+    color: black;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.text_box{
+
+    font-size: 24px;
+    text-align: center;
+    width:536px;
+    height:54px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box{
+
+    
+    font-size: 24px;
+    color: white;
+    width:536px;
+    height:54px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box:hover{
+
+    color: black;
+    background-color: #1DB547;
+    border-color: white;
+}
+
+.appointments_img{
+
+    width: 774px;
+    height: 340px;
+    margin-left: 68px;
+    margin-right: 68px;
+    overflow: hidden;
+
+}
+
+.appointments_grid{
+
+    display: flex;
+    justify-content: center;
+}
+.appointments_form{
+
+    display: grid;
+    margin-left: 68px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px){
+
+.appointments_grid{
+
+    display: grid;
+    justify-content: center;
+}
+.appointments_form{
+
+    display: grid;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.text_box,
+.button_box{
+    width: min(100%, 480px);
+}
+
+.appointments_img{
+
+    width: min(100%, 500px);
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+
+}
+
+}
+
+@media (max-width: 500px){
+
+.appointments_grid{
+
+    display: grid;
+    justify-content: center;
+}
+.appointments_form{
+
+    display: grid;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+    .text_box{
+
+    font-size: 24px;
+    text-align: center;
+    width:400px;
+    height:54px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.button_box{
+
+    
+    font-size: 24px;
+    color: white;
+    width:400px;
+    height:54px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    border-radius: 27px;
+    margin-bottom: 20px;
+}
+
+.setup_appointment_text{
+
+    color: black;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.appointments_img{
+
+    width: 340px;
+    height: 340px;
+    margin-left: 38px;
+    margin-right: 38px;
+    overflow: hidden;
+
+}
+
+
+
+}
+
+@media (max-width: 480px){
+
+.text_box,
+.button_box{
+    width: 100%;
+    max-width: 340px;
+    font-size: 20px;
+}
+
+.setup_appointment_text{
+    font-size: 24px;
+}
+
+.appointments_img{
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+}
+
+@media (max-width: 390px){
+
+.text_box,
+.button_box{
+    width: 100%;
+    max-width: 320px;
+    font-size: 20px;
+}
+
+.setup_appointment_text{
+    font-size: 28px;
+}
+
+.appointments_img{
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+}
+
+@media (max-width: 320px){
+
+.text_box,
+.button_box{
+    max-width: 260px;
+    font-size: 18px;
+    height: 48px;
+}
+
+.setup_appointment_text{
+    font-size: 22px;
+}
+
+.appointments_img{
+    max-width: 260px;
+}
+
+}

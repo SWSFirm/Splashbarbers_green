@@ -76,34 +76,7 @@ main{
     
 }
 
-.menu{
-    line-height: 5px;
-    
-}
-.menu ul{
-    display: flex;
-    list-style-type: none;
-    margin-right: 50px;
-}
 
-.menu ul li{
-    display: inline;
-    padding: 1%;
-    font-weight: lighter;
-    color: white;
-    text-decoration: none;
-}
-
-.navlinks{
-    font-size: 24px;
-     color: white;
-    text-decoration: none;
-}
-
-.navlinks:hover{
-     color: black;
-    
-}
 
 .loginmenu_text{
 
@@ -131,6 +104,11 @@ font-size: 24px;
     
 }
 
+.nav_margin{
+
+    margin-left: 5px;
+
+}
 
 
 .text_box{

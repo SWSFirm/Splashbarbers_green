@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Regular.TTF') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Bold.TTF') format('truetype');
+  font-weight: bold;
+}
+
+
+*,
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{  
+  font-family: 'Rockwell' ;  
+  margin:0;   
+ /* overflow: hidden;*/
+  background-color: #1DB547;
+}
+
+
+
+/*Appointments collection view...*/
+
+.Center_for-First-Collection-View{
+
+    display:flex;
+    justify-content:center;
+    margin: 55px;
+    
+}
+
+.content_posit{
+
+    display: flex;
+    justify-content: start;
+    margin-right: 100px;
+}
+
+.barbershop_appointments_View{
+
+    padding: 0px;
+    background-color: white;
+    width:1219px;
+    height: auto;
+    border-radius: 25px;
+   
+}
+
+.first_view_grid{
+
+    margin-top: 15px;
+    display:flex;
+    justify-content:space-evenly;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+
+}
+
+.appointments_view_text{
+
+    margin-left: 15px;
+    color:black;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+
+.label_Pending{
+
+    margin-top: 15px;
+    display:flex;
+    justify-content:center;
+    font-size: 96px;
+    align-items: center;
+}
+
+.label_completed{
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:center;
+    font-size: 96px;
+    align-items: end;
+}
+
+.label_7_big_Number{
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 165px;
+    font-size: 188px;
+}
+
+.flexing_for_number_nd_label{
+    
+    display:flex;
+    margin-top: 0px;
+}
+
+.label_today{
+
+    display:flex;
+    justify-content: end;
+    font-weight: light;
+    font-size: 48px;
+    margin-top: 15px;
+    margin-right: 140px;
+
+}
+
+.label_this_week_month_average{
+
+    display:flex;
+    justify-content:start;
+    font-weight: light;
+    font-size: 36px;
+    margin-top: 15px;
+   
+
+}
+
+.label_margin-left{
+
+    margin-left: 25px;
+
+}
+
+.label_margin-right{
+
+    margin-right: 17px;
+
+}
+
+
+.row_of_lables_tlemetry{
+
+    margin-left: 5px;
+    margin-top: 39px;
+    margin-bottom: 36px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+.position_Center_Footer{
+
+    margin-top: 25px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: center;
+
+}
+

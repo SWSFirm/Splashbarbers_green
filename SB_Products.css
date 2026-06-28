@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Regular.TTF') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/Rockwell-Bold.TTF') format('truetype');
+  font-weight: bold;
+}
+
+
+*,
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{  
+  font-family: 'Rockwell' ;  
+  margin:0;   
+ /* overflow: hidden;*/
+  background-color: #1DB547;
+}
+
+
+.products_Collections_view_positioning{
+
+    display: flex;
+    justify-content: center;
+}
+
+.products_collctions_view{
+
+    margin: 55px;
+    padding: 5px;
+    background-color: white;  
+    width: 1208px;  
+    height: auto;
+    border-radius: 25px;
+   
+}
+
+.products_collections_heading{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+
+}
+
+.header_image_On_Remaining_views{
+
+    margin-top: 10px;
+    margin-left:25px;
+}
+
+.header_Text_On_Remaining_Views{
+
+    margin-left:25px;
+    font-size: 48px;
+    font-weight: Bold;
+    margin-top: 5px;
+}
+
+.products_section_horizontaling{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 77px;
+    margin-bottom: 38px;
+    
+}
+
+.products_section_text_positioning{
+
+    margin-top: 50px;
+    display:grid;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.products_section_text{
+
+    padding-bottom: 25px;
+    font-size: 48px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+}
+
+.products_section_number{
+
+    font-size: 48px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.products_list_services_list{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.list_margin{
+    
+    margin-left: 77px;
+}
+
+.products_Services_list_font{
+
+    font-weight: bold;
+font-size: 36Px;
+
+}
+
+.position_Center_Footer{
+
+    margin-top: 25px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: center;
+
+}
+
